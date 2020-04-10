@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: RobotoSlab;
+  src: url("../fonts/RobotoSlab.ttf");
+} 
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: RobotoSlab;
+  font-size: 16px;
+}
+
+header {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color: #67726b;
+  display: flex;
+  flex-direction: column;
+}
+
+header .logo1 h1{
+  font-size: 30px;
+  text-align: center;
+  color: White;
+  font-size: 50px;
+  letter-spacing: 50px;
+}
+
+header .logo1 h1 sup {
+  letter-spacing: 5px;
+}
+
+header hr {
+  background-color: white;
+  border-color: White;
+  width: 90%;
+  height: 5px;
+  margin: 30px auto 0 auto;
+}
+
+
+
+header .logo2 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .logo2 h2 {
+  color: White;
+  text-align:center;
+  letter-spacing:5px;  
+}
+
+header .menu-bar {
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 90%;
+}
+
+header .menu-bar ul{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+header .menu-bar li {
+  width: 20%;
+  list-style-type: none;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  transition: all .3s ease 0s;
+}
+
+header .menu-bar li:active {
+  width: 20%;
+  list-style-type: none;
+  text-align: center;
+  color: #67726b;
+  background: #fff;
+  font-size: 30px;
+  border-radius: 3px;
+}
+
+main .choise-bar{
+  background: #67726b;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+main .choise-bar h3{
+  font-size: 40px;
+  text-align: center;
+  color: #67726b;
+  background: #fff;
+  border-radius: 5px;
+  letter-spacing: 10px;
+}
+
+
+main .info p {
+  display: none;
+  margin-top: 20px;
+  font-size: 25px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
